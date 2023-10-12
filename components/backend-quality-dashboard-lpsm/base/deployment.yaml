@@ -81,7 +81,7 @@ spec:
             secretKeyRef:
               key: dex-application-id
               name: quality-dashboard-secrets
-        image: quay.io/redhat-appstudio/quality-dashboard-backend:latest
+        image: quay.io/redhat-appstudio-qe/rhtap-demo-kihx-tenant/mc-quality-dashboard/backend-quality-dashboard-lpsm@sha256:d85b5abe04bd144e79efa19df48f05a7c8ae19dbf563c8adb3bc934757f2cbb1
         imagePullPolicy: Always
         name: quality-backend-dashboard
         ports:
