@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-dlfm
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-kihx-tenant/mc-quality-dashboard/frontend-quality-dashboard-dlfm@sha256:a87a855daee6cac8ed4cb6c2754d961233534552a76f964cf2ae67d8995278bb
+        name: quality-frontend-dashboard
+        resources: {}
+status: {}
